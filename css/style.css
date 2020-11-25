@@ -106,11 +106,6 @@ section{
     height: 50%;
 }
 
-.sobre2 img {
-    width: 30%;
-    height: 500px;
-}
-
 .hits ol li {
     list-style: decimal;
 
@@ -141,6 +136,23 @@ a {
 .about {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sobre2 img {
+    display: flex;
+    width: 500px;
+    height: 400px;
+}
+
+.jane-sobre {
+
+    width: 500px;
+    height: 400px;
+/*    width: 30%;
+    margin: 2% 85% 5% 85%;*/
+
 }
 
 .sobre {
@@ -157,10 +169,6 @@ a {
     height: 100%;
     align-items: flex-start;
     flex-direction: column;
-}
-.jane-sobre {
-    width: 30%;
-    margin: 2% 35% 5% 35%;
 }
 
 .titulo {
